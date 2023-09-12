@@ -583,7 +583,7 @@ var contactForm = function() {
 		            }
 			      },
 			      error: function() {
-			      	$('#form-message-warning').html("Something went wrong. Please try again.");
+			      	$('#form-message-warning').html("Algo deu errado.");
 			         $('#form-message-warning').fadeIn();
 			         $submit.css('display', 'none');
 			      }
